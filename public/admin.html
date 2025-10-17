@@ -327,7 +327,7 @@
         </div>
 
         <footer>
-            <p>&copy; 2025 | Desenvolvido por Guilherme</p>
+            <p>&copy;2025 | Desenvolvido por <a href="https://devgui.com.br" target="_blank">Guilherme Araujo</a></p>
         </footer>
 
     </div>
@@ -457,8 +457,8 @@
             const timeStr = time.toLocaleString('pt-BR');
             item.innerHTML = `
                 <div class="history-item-header">
-                    <span class="history-item-type">${predefinedAlerts[alert.type].title}</span>
-                    <span class="history-item-time">${timeStr}</span>
+                  <span class="history-item-type">${predefinedAlerts[alert.type].title}</span>
+                  <span class="history-item-time">${timeStr}</span>
                 </div>
                 <div class="history-item-message">${alert.message}</div>
             `;

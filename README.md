@@ -89,7 +89,7 @@ O aplicativo que deve ser abaixado `Sistema de Alertas Setup 1.0.0.exe`. Ao abai
 2. Para colocar o aplicativo no **Inicializar** deve seguir os seguintes passos:
 
     - Aperta `(Windows + R)`
-    - Ao abrir caixa cole `shell:common startup`
+    - Ao abrir caixa digite: `shell:common startup`
 
 Verifique onde encontra o aplicativo **Sistema de Alertas** (Deve aparecer em sua **Area de Trabalho**) e cole dentro da pasta que abrir quando executar `Passo 2`.
 

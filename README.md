@@ -81,8 +81,8 @@ npm run dist
 1. Executar o `npm run dist`  
 ```
 sistema alertas
-│   ├── dist
-│   │   └── Sistema de Alertas Setup 1.0.0.exe
+├── dist
+│   └── Sistema de Alertas Setup 1.0.0.exe
 ```
 O aplicativo que deve ser abaixado `Sistema de Alertas Setup 1.0.0.exe`. Ao abaixar precisará ser executado como administrador, depois de abaixado deverá copiar o atalho do **Aplicativo** e ser colocado no inicializar. 
 

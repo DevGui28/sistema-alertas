@@ -75,3 +75,21 @@ npm install --save-dev electron-builder
 ```bash
 npm run dist
 ```
+
+## Abaixa o aplicativo cliente
+
+1. Executar o `npm run dist`  
+```
+sistema alertas
+│   ├── dist
+│   │   └── Sistema de Alertas Setup 1.0.0.exe
+```
+O aplicativo que deve ser abaixado `Sistema de Alertas Setup 1.0.0.exe`. Ao abaixar precisará ser executado como administrador, depois de abaixado deverá copiar o atalho do **Aplicativo** e ser colocado no inicializar. 
+
+2. Para colocar o aplicativo no **Inicializar** deve seguir os seguintes passos:
+
+    - Aperta `(Windows + R)`
+    - Ao abrir caixa cole `shell:common startup`
+
+Verifique onde encontra o aplicativo **Sistema de Alertas** (Deve aparecer em sua **Area de Trabalho**) e cole dentro da pasta que abrir quando executar `Passo 2`.
+

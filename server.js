@@ -4,6 +4,7 @@ const path = require('path');
 
 const app = express();
 const PORT = 3000;
+// const IP_DO_SERVIDOR = '192.168.1.104'; // Defina seu IP aqui
 
 // Middleware
 app.use(express.json());
@@ -11,6 +12,7 @@ app.use(express.static('public'));
 
 // Criar servidor HTTP
 const server = app.listen(PORT, () => {
+    // console.log(`Servidor rodando em http://${IP_DO_SERVIDOR}:${PORT}`);
     console.log(`Servidor rodando na porta ${PORT}`);
 });
 
